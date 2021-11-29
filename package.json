@@ -1,0 +1,10 @@
+{
+  "homepage":"https://github.com/J-E-Y/portfolio-website-email-developer",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {    
+    "deploy":"gh-pages -d dist"
+  }
+
+}
