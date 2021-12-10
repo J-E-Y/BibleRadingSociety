@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Style</title>
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script
+      src="https://kit.fontawesome.com/338554a1bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Newsletter</title>
     <!--[if mso]>
       <style type="text/css">
         body,
@@ -19,12 +25,12 @@
       </style>
     <![endif]-->
     <style type="text/css">
-      @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
       body {
         background-color: #f1f1f1;
         margin: 0px;
         padding: 0px;
-        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 13px;
         line-height: 16px;
         color: #262626;
@@ -51,6 +57,12 @@
           font-size: 0px !important;
           visibility: hidden;
         }
+        .pad10 {
+          padding: 10px !important;
+        }
+        .pad20 {
+          padding-bottom: 30px !important;
+        }
       }
 
       @media only screen and (max-width: 480px) {
@@ -65,7 +77,7 @@
       bgcolor="#303030"
       width="100%"
       border="0"
-      cellspecing="0"
+      cellspacing="0"
       cellpadding="0"
     >
       <tr>
@@ -74,14 +86,13 @@
             bgcolor="#ffffff"
             width="600"
             border="0"
-            cellspecing="0"
+            cellspacing="0"
             cellpadding="0"
             class="container"
           >
+            <!-- Logo starts -->
             <tr>
-              <td align="center">
-                <!-- Logo starts -->
-
+              <td bgcolor="ffffff" align="center">
                 <img
                   src="https://via.placeholder.com/200x50?text=Logo"
                   alt="Logo"
@@ -97,11 +108,18 @@
                 bgcolor="#efefef"
                 style="padding-top: 20px; padding-bottom: 30px"
               >
-                <table width="100%" border="0" cellpadding="0" cellspeacing="0">
-                     <!-- ? pic -->
+                <table
+                  width="100%"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="padding-bottom: 30px"
+                >
+                  <!-- ? pic -->
                   <tr>
                     <td>
                       <img
+                        class="image"
                         width="600"
                         src="https://i.ibb.co/TRn4jL2/hero.jpg"
                         alt="style"
@@ -109,113 +127,321 @@
                     </td>
                   </tr>
                   <!-- ?heading  -->
-                  <td
-                  align="center"
-                  style="
-                     font-size: 25px;
-                     font-weight: bold;
-                     text-transform: uppercase;
-                     padding: 30px 0;
-                  "
-                  >
-                  Up to 50% Off
-                  </td>
-               </tr>
-               <!-- ?text  and botton-->
-               <tr>
-                  <td align="center" style="padding-bottom:20px">
-                  <table width="85%" border="0" cellpadding="0" cellspeacing="0">
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        font-size: 25px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        padding: 30px 0;
+                      "
+                    >
+                      Up to 50% Off
+                    </td>
+                  </tr>
+                  <!-- ?text  and botton-->
+                  <tr>
+                    <td align="center" style="padding-bottom: 20px">
+                      <table
+                        width="85%"
+                        border="0"
+                        cellpadding="0"
+                        cellspeacing="0"
+                      >
                         <tr>
-                           <td align="center" style="font-weight: normal; padding-bottom: 20px;">
-                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                           molestias rerum et officiis at delectus officiis at delectus officiis
-                           officiis.
-                           </td>
+                          <td
+                            align="center"
+                            style="font-weight: normal; padding-bottom: 20px"
+                          >
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quam molestias rerum et officiis at delectus
+                            officiis at delectus officiis officiis.
+                          </td>
                         </tr>
-                     </table>
-                  </td>
-               </tr>
-               <tr>
-                  <td align="center">
-                     <table bgcolor="#fe9900" width="150" border="0" cellspacing="0" cellpadding="0">
+                      </table>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td align="center">
+                      <table
+                        bgcolor="#fe9900"
+                        width="150"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                      >
                         <tr>
-                           <td align="center" style="font-size: 15px; font-weight: bold;padding:15px 0; text-transform: uppercase;"> <a  target="_blank"href=""style="text-decoration:none; color:#ffffff;">Shop now</a>                              
-                           </td>
+                          <td
+                            align="center"
+                            style="
+                              font-size: 15px;
+                              font-weight: bold;
+                              padding: 15px 0;
+                              text-transform: uppercase;
+                            "
+                          >
+                            <a
+                              target="_blank"
+                              href=""
+                              style="text-decoration: none; color: #ffffff"
+                              >Shop now</a
+                            >
+                          </td>
                         </tr>
-                     </table>
-                  </td>
-               </tr>
+                      </table>
+                    </td>
+                  </tr>
                 </table>
               </td>
             </tr>
             <!-- Hero area Ends -->
-            <!-- Speacer area starts -->
-            <tr>
-               <td align="center" style="font-size:30px; height:30px; line-height:30px;">
-               </td>
-            </tr>
-            <!-- Speacer ends starts -->
 
             <!-- 2 Section  area starts-->
 
             <tr>
-               <td align="center"> 
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                     <!--? img -->
-                     <tr>
-                        <td width="350">
-                           <img width="350"src="https://i.ibb.co/R34Yzj2/fella.jpg" alt="">
-                        </td>
-                        <!-- ?content -->
-                        <td bgcolor="#fe9900"width="250" align="center" valign="top">        
-                           <table>
+              <td align="center">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <!--? img -->
+                  <tr>
+                    <td width="350" class="db dw">
+                      <img
+                        class="image"
+                        width="350"
+                        src="https://i.ibb.co/R34Yzj2/fella.jpg"
+                        alt=""
+                      />
+                    </td>
+                    <!-- ?content -->
+                    <td
+                      bgcolor="#fe9900"
+                      width="250"
+                      align="center"
+                      valign="top"
+                      class="db dw"
+                    >
+                      <table
+                        width="100%"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                      >
+                        <tr>
+                          <td
+                            align="center"
+                            style="
+                              font-size: 1px;
+                              height: 20px;
+                              line-height: 1px;
+                            "
+                          ></td>
+                        </tr>
 
-                              <tr>
-                                 <td align="center" style="font-size:1px; height:20px; line-height:1px;">
-                                 </td>
-                              </tr>
+                        <tr>
+                          <td
+                            class="pad10"
+                            align="center"
+                            class="db dw"
+                            style="
+                              font-size: 24px;
+                              font-weight: bold;
+                              color: #ffffff;
+                              line-height: 30px;
+                              padding-top: 70px;
+                              text-transform: uppercase;
+                            "
+                          >
+                            New Style
+                          </td>
+                        </tr>
 
+                        <tr>
+                          <td align="center">
+                            <table
+                              width="70%"
+                              border="0"
+                              cellspacing="0"
+                              cellpadding="0"
+                            >
                               <tr>
-                                 <td align="center" style="font-size: 24px; font-weight: bold; color:#ffffff; line-height: 30px; padding-top:70px; text-transform: uppercase;">New Style</td>
+                                <td
+                                  style="
+                                    font-weight: normal;
+                                    padding-bottom: 20px;
+                                    padding-top: 20px;
+                                  "
+                                >
+                                  Lorem&nbsp; ipsum dolor sit amet consectetur
+                                  &nbsp;adipisicing elit. Quam&nbsp; molestias
+                                  &nbsp;rerum Quam&nbsp; molestias&nbsp; rerum
+                                </td>
                               </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" class="pad20">
+                            <table
+                              bgcolor="#303030"
+                              width="150"
+                              border="0"
+                              cellspacing="0"
+                              cellpadding="0"
+                            >
                               <tr>
-                                 <td align="center" style="font-weight: normal; padding-bottom: 20px; padding-top:20px;">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                                 molestias rerum Quam
-                                 molestias rerum 
-                                 </td>
+                                <td
+                                  align="center"
+                                  style="
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    padding: 15px 0;
+                                    text-transform: uppercase;
+                                  "
+                                >
+                                  <a
+                                    target="_blank"
+                                    href=""
+                                    style="
+                                      text-decoration: none;
+                                      color: #ffffff;
+                                    "
+                                    >Shop now</a
+                                  >
+                                </td>
                               </tr>
-                              <tr>
-                                   <td align="center">
-                                       <table bgcolor="#303030" width="150" border="0" cellspacing="0" cellpadding="0">
-                                          <tr>
-                                             <td align="center" style="font-size: 14px; font-weight: bold;padding:15px 0; text-transform: uppercase;"> <a  target="_blank"href=""style="text-decoration:none; color:#ffffff;">Shop now</a>                              
-                                             </td>
-                                          </tr>
-                                       </table>
-                                    </td>
-                              </tr>
-                           </table>   
-                        </td>
-                     </tr>
-                  </table>
-               </td>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
             </tr>
 
             <!-- 2 Section  area ends -->
 
             <!-- Speacer area starts -->
             <tr>
-               <td align="center" style="font-size:30px; height:30px; line-height:30px;">
-               </td>
+              <td
+                bgcolor="#ffffff"
+                align="center"
+                style="font-size: 30px; height: 30px; line-height: 30px"
+              ></td>
             </tr>
             <!-- Speacer ends starts -->
 
-            
-
             <!-- Last Section Starts  -->
 
+            <tr>
+              <td align="center" bgcolor="#ffffff">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <!-- ?1 -->
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        font-size: 20px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        line-height: 24px;
+                        padding-bottom: 10px;
+                      "
+                    >
+                      Follow Along with us
+                    </td>
+                  </tr>
+                  <!-- ?2 -->
+                  <tr>
+                    <td
+                      bgcolor="#ffffff"
+                      align="center"
+                      style="font-size: 10px; height: 10px; line-height: 10px"
+                    ></td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <table
+                        width="190"
+                        border="0"
+                        cellspacing="0"
+                        cellpadding="0"
+                      >
+                        <tr>
+                          <td width="50">
+                            <i
+                              style="font-size: 50px; color: lightskyblue"
+                              class="fab fa-twitter"
+                            ></i>
+                          </td>
+                          <td width="50">
+                            <i
+                              style="font-size: 50px; color: crimson"
+                              class="fab fa-instagram"
+                            ></i>
+                          </td>
+
+                          <td width="50">
+                            <i
+                              style="font-size: 50px; color: blue"
+                              class="fab fa-facebook"
+                            ></i>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- ?3 -->
+                  <tr>
+                    <td
+                      bgcolor="#ffffff"
+                      align="center"
+                      style="font-size: 15px; height: 15px; line-height: 15px"
+                    ></td>
+                  </tr>
+
+                  <tr>
+                    <td align="center">
+                      <table
+                        width="85%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                      >
+                        <tr>
+                          <td
+                            align="center"
+                            style="font-weight: normal; padding-bottom: 20px"
+                          >
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quam molestias rerum et officiis at delectus
+                            officiis at delectus officiis officiis.consectetur
+                            adipisicing elit.consectetur adipisicing elit. Quam
+                            molestias
+                            <a
+                              href=""
+                              target="_blank"
+                              style="
+                                text-decoration: none;
+                                color: lightslategrey;
+                                font-weight: bold;
+                                font-size: 15px;
+                              "
+                              >Unsubscribe Here</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
             <!-- Last Section Ends  -->
+            <tr>
+              <td height="20">&nbsp;</td>
+            </tr>
           </table>
         </td>
       </tr>
