@@ -33,6 +33,9 @@
       }
 
       @media only screen and (max-width: 600px) {
+        #bg {
+          background-image: url(img/background-modified-mobile.jpg) !important;
+        }
         .image {
           width: 100% !important;
           height: auto !important;
@@ -53,6 +56,40 @@
           font-size: 0px !important;
           visibility: hidden;
         }
+
+        .full {
+          width: 100% !important;
+        }
+        .full90 {
+          width: 90% !important;
+        }
+        .full80 {
+          width: 80% !important;
+        }
+
+        .pt0 {
+          padding-top: 0px !important;
+        }
+        .pt10 {
+          padding-top: 10px !important;
+        }
+        .ptb20 {
+          padding-top: 20px !important;
+          padding-bottom: 20px !important;
+        }
+        .height-20 {
+          height: 20px !important;
+          font-size: 20px !important;
+          line-height: 20px !important;
+        }
+        .height-30 {
+          height: 30px !important;
+          font-size: 30px !important;
+          line-height: 30px !important;
+        }
+        .cn {
+          text-align: center !important;
+        }
       }
 
       @media only screen and (max-width: 480px) {
@@ -68,90 +105,134 @@
       <tr>
         <td align="center">
           <!-- 2.Table Starts -->
-
           <!-- BG SECTION -->
           <table
-            bgcolor="#132128"
             id="bg"
+            bgcolor="#132128"
+            class="full"
             width="650"
             border="0"
             cellspacing="0"
             cellpadding="0"
             style="
               background-image: url(https://i.ibb.co/XLfgjb8/background-modified.jpg);
-              background-size: 100%;
               background-repeat: repeat-y;
               background-position: left top;
+              background-size: 100%;
               overflow: hidden;
             "
+            height="auto"
           >
             <tr>
-              <td
-                align="center"
-                style="padding-top: 50px; padding-bottom: 50px"
-              >
-                <table width="500" border="0" cellspacing="0" cellpadding="0">
-                  <!-- Frist Section starts -->
+              <td align="center">
+                <table
+                  class="container"
+                  width="600"
+                  border="0"
+                  cellspacing="0"
+                  cellpadding="0"
+                >
+                  <!--! First OFFER starts-->
                   <tr>
-                    <td>
+                    <td
+                      align="center"
+                      style="padding-top: 50px; padding-bottom: 30px"
+                    >
                       <table
-                        width="100%"
+                        class="full80"
+                        width="560"
                         border="0"
                         cellspacing="0"
                         cellpadding="0"
                       >
                         <tr>
-                          <!-- 1 -->
-                          <td align="center" width="70">
-                            <img
-                              src="https://i.ibb.co/ckccjcF/tl-december-title-2x.png"
-                              alt=""
-                              width="60"
-                              height="57"
-                            />
-                          </td>
-                          <!-- 2 -->
-                          <td>
+                          <td align="center">
                             <table
                               class="full"
-                              width="200"
+                              width="500"
                               border="0"
                               cellspacing="0"
                               cellpadding="0"
                             >
                               <tr>
-                                <td align="center">
-                                  <!-- table 1 -->
+                                <!-- img -->
+                                <td width="70" class="db dw" align="center">
+                                  <img
+                                    src="https://i.ibb.co/ckccjcF/tl-december-title-2x.png"
+                                    alt=""
+                                    width="60"
+                                    height="57"
+                                  />
+                                </td>
+                                <!-- text1 -->
+                                <td align="left" class="db dw">
                                   <table
-                                    bgcolor="#d20e14"
-                                    width="200"
+                                    width="100%"
                                     border="0"
                                     cellspacing="0"
                                     cellpadding="0"
                                   >
                                     <tr>
+                                      <td class="pt10">
+                                        <table
+                                          class="full"
+                                          width="180"
+                                          border="0"
+                                          cellspacing="0"
+                                          cellpadding="0"
+                                        >
+                                          <tr>
+                                            <td
+                                              class="cn"
+                                              align="center"
+                                              bgcolor="#fa131a"
+                                              style="
+                                                text-transform: uppercase;
+                                                font-size: 11px;
+                                                line-height: 15px;
+                                                color: #ffffff;
+                                                font-weight: bold;
+                                                padding: 4px;
+                                              "
+                                            >
+                                              December Product Offer
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+
+                                    <!-- text 2 -->
+                                    <tr>
                                       <td
-                                        align="center"
+                                        class="cn pt10"
                                         style="
-                                          color: #ffffff;
-                                          text-align: center;
-                                          font-weight: bold;
-                                          font-family: arial;
                                           text-transform: uppercase;
-                                          font-size: 12px;
-                                          line-height: 20px;
+                                          font-size: 24px;
+                                          line-height: 30px;
+                                          color: #ffffff;
+                                          font-weight: bold;
                                         "
                                       >
-                                        December Product offer
+                                        50% xmas sale
                                       </td>
                                     </tr>
                                   </table>
                                 </td>
                               </tr>
                             </table>
-                            <!-- table 2 -->
+                          </td>
+                        </tr>
+
+                        <!-- text3 -->
+                        <tr>
+                          <td
+                            align="center"
+                            style="padding-top: 20px; padding-bottom: 20px"
+                          >
                             <table
-                              width="100%"
+                              class="full"
+                              width="500"
                               border="0"
                               cellspacing="0"
                               cellpadding="0"
@@ -161,143 +242,331 @@
                                   class="cn"
                                   style="
                                     color: #ffffff;
-                                    font-weight: bold;
-                                    font-family: arial;
-                                    text-transform: uppercase;
-                                    font-size: 30px;
-                                    line-height: 40px;
-                                    padding-top: 5px;
+                                    font-size: 13px;
+                                    line-height: 20px;
                                   "
                                 >
-                                  50% Christmas sale
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipisicing elit. Possimus voluptatum error
+                                  alias, sit tempora aut quisquam nesciunt
+                                  commodi maxime voluptatem expedita dolore
+                                  sequi. Vitae, voluptatum, nostrum illo
+                                  voluptate animi ipsum.
                                 </td>
                               </tr>
                             </table>
                           </td>
                         </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <!-- Frist Section Ends -->
-                  <!-- Second Section Starts -->
-                  <tr>
-                    <td align="center">
-                      <table
-                        width="95%"
-                        border="0"
-                        cellspacing="0"
-                        cellpadding="0"
-                      >
+                        <!-- sdsds -->
                         <tr>
-                          <td
-                            style="
-                              color: #ffffff;
-                              font-family: arial;
-                              font-size: 13px;
-                              line-height: 20px;
-                              padding-top: 5px;
-                            "
-                          >
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Alias inventore, beatae! Iste, a tenetur
-                            eveniet cumque dolorum doloremque modi, odit
-                            voluptate, molestiae culpa saepe soluta quam
-                            laudantium, omnis perferendis commodi.
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <!-- Second Section Ends -->
-
-                  <!-- Thrid Section Starts -->
-                  <tr>
-                    <td style="padding-top:30px;">
-                      <table class="full" width="500" border="0" cellspacing="0" cellpadding="0">
-                        <tr>
-                          <!-- 1 starts -->
-                          <td width="160">
+                          <td align="center" style="padding-bottom: 20px">
                             <table
-                              width="100%"
+                              class="full"
+                              width="500"
                               border="0"
                               cellspacing="0"
                               cellpadding="0"
                             >
-                              <!-- first item -->
                               <tr>
-                                <td align="center">
-                                  <img
-                                    width="160"
-                                    height="160"
-                                    src="./img/product-shoes.png"
-                                    alt=""
-                                    style="display: block;border:none;"
-                                  />
-                                </td>
-                              </tr>
-
-
-                              <!-- Second item -->
-                              	<td align="center">
-														<table width="96%" border="0" cellspacing="0" cellpadding="0">
-															<tr>
-															  <td align="center" class="cn" style="color:#ffffff; font-family:arial; font-size:13px; line-height: 20px; padding-top: 5px;">
-																Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-															  </td>
-															</tr>
-															<tr>
-															  <td align="center" class="cn" style="color:#ffffff; font-family:arial; font-size:24px; line-height: 30px; padding-top: 10px; font-weight:bold;">
-																$55.00 
-															  </td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-                             
-                              <!-- Third item -->
-                              <tr>
-                                <td align="center" style="padding-top:20px;">
-                                  <table bgcolor="#d20e14" width="120" border="0" cellspacing="0" cellpadding="0">
+                                <td width="160" class="db dw">
+                                  <table
+                                    width="100%"
+                                    border="0"
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                  >
                                     <tr>
-                                      <td align="center" class="cn" style="color:#ffffff; font-family:arial; font-size:13px; line-height: 20px; font-weight:bold; padding:5px 0px">
-                                      <a href="link" target="_blank" style="color:#ffffff; text-decoration: none;">BUY NOW</a></td>
+                                      <td align="center" width="160">
+                                        <img
+                                          src="https://i.ibb.co/KhV7tr1/product-shoes.png"
+                                          alt=""
+                                          width="160"
+                                          height="160"
+                                        />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center">
+                                        <table
+                                          width="96%"
+                                          border="0"
+                                          cellspacing="0"
+                                          cellpadding="0"
+                                        >
+                                          <tr>
+                                            <td
+                                              class="cn"
+                                              style="
+                                                color: #ffffff;
+                                                font-size: 13px;
+                                                line-height: 20px;
+                                                text-align: center;
+                                              "
+                                            >
+                                              Lorem ipsum dolor sit amet,
+                                              consectetur adipisicing elit.
+                                              Quae, odit!
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td
+                                              class="cn"
+                                              style="
+                                                color: #ffffff;
+                                                font-size: 20px;
+                                                line-height: 30px;
+                                                text-align: center;
+                                                font-weight: bold;
+                                                padding-top: 10px;
+                                              "
+                                            >
+                                              $55.00
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td
+                                              align="center"
+                                              style="padding-top: 20px"
+                                            >
+                                              <table
+                                                width="120"
+                                                border="0"
+                                                cellspacing="0"
+                                                cellpadding="0"
+                                                bgcolor="#d20e14"
+                                              >
+                                                <tr>
+                                                  <td
+                                                    align="center"
+                                                    style="
+                                                      color: #ffffff;
+                                                      font-weight: bold;
+                                                      padding: 6px 0px;
+                                                    "
+                                                  >
+                                                    BUY NOW
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="10" height="20" class="db dw">
+                                  &nbsp;
+                                </td>
+                                <td width="160" class="db dw">
+                                  <table
+                                    width="100%"
+                                    border="0"
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                  >
+                                    <tr>
+                                      <td align="center" width="160">
+                                        <img
+                                          src="https://i.ibb.co/W3cBTdJ/product-watch.png"
+                                          alt=""
+                                          width="160"
+                                          height="160"
+                                        />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center">
+                                        <table
+                                          width="96%"
+                                          border="0"
+                                          cellspacing="0"
+                                          cellpadding="0"
+                                        >
+                                          <tr>
+                                            <td
+                                              class="cn"
+                                              style="
+                                                color: #ffffff;
+                                                font-size: 13px;
+                                                line-height: 20px;
+                                                text-align: center;
+                                              "
+                                            >
+                                              Lorem ipsum dolor sit amet,
+                                              consectetur adipisicing elit.
+                                              Quae, odit!
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td
+                                              class="cn"
+                                              style="
+                                                color: #ffffff;
+                                                font-size: 20px;
+                                                line-height: 30px;
+                                                text-align: center;
+                                                font-weight: bold;
+                                                padding-top: 10px;
+                                              "
+                                            >
+                                              $55.00
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td
+                                              align="center"
+                                              style="padding-top: 20px"
+                                            >
+                                              <table
+                                                width="120"
+                                                border="0"
+                                                cellspacing="0"
+                                                cellpadding="0"
+                                                bgcolor="#d20e14"
+                                              >
+                                                <tr>
+                                                  <td
+                                                    align="center"
+                                                    style="
+                                                      color: #ffffff;
+                                                      font-weight: bold;
+                                                      padding: 6px 0px;
+                                                    "
+                                                  >
+                                                    BUY NOW
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td width="10" height="20" class="db dw">
+                                  &nbsp;
+                                </td>
+                                <td width="160" class="db dw">
+                                  <table
+                                    width="100%"
+                                    border="0"
+                                    cellspacing="0"
+                                    cellpadding="0"
+                                  >
+                                    <tr>
+                                      <td align="center" width="160">
+                                        <img
+                                          src="https://i.ibb.co/pxGvNpD/product-hat.png"
+                                          alt=""
+                                          width="160"
+                                          height="160"
+                                        />
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td align="center">
+                                        <table
+                                          width="96%"
+                                          border="0"
+                                          cellspacing="0"
+                                          cellpadding="0"
+                                        >
+                                          <tr>
+                                            <td
+                                              class="cn"
+                                              style="
+                                                color: #ffffff;
+                                                font-size: 13px;
+                                                line-height: 20px;
+                                                text-align: center;
+                                              "
+                                            >
+                                              Lorem ipsum dolor sit amet,
+                                              consectetur adipisicing elit.
+                                              Quae, odit!
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td
+                                              class="cn"
+                                              style="
+                                                color: #ffffff;
+                                                font-size: 20px;
+                                                line-height: 30px;
+                                                text-align: center;
+                                                font-weight: bold;
+                                                padding-top: 10px;
+                                              "
+                                            >
+                                              $55.00
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td
+                                              align="center"
+                                              style="padding-top: 20px"
+                                            >
+                                              <table
+                                                width="120"
+                                                border="0"
+                                                cellspacing="0"
+                                                cellpadding="0"
+                                                bgcolor="#d20e14"
+                                              >
+                                                <tr>
+                                                  <td
+                                                    align="center"
+                                                    style="
+                                                      color: #ffffff;
+                                                      font-weight: bold;
+                                                      padding: 6px 0px;
+                                                    "
+                                                  >
+                                                    BUY NOW
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
                                     </tr>
                                   </table>
                                 </td>
                               </tr>
                             </table>
-                                </td>
-                              </tr>
-                            </table>
                           </td>
-                          <!-- 1 ends -->
-
-                          <!-- spacer starts-->
-                          <td width="10" height="20">&nbsp;</td>
-                          <!-- spacer ends-->
-
-                          <!-- 2 starts -->
-                          <td width="160">2</td>
-                          <!-- 2 ends -->
-
-                          <!-- spacer starts-->
-                          <td width="10" height="20">&nbsp;</td>
-
-                          <!-- spacer ends-->
-
-                          <!-- 3 starts-->
-                          <td width="160">2</td>
-                          <!-- 3 Ends-->
                         </tr>
                       </table>
                     </td>
                   </tr>
-                  <!-- Thrid Section Ends -->
+                  <!-- /OFFER -->
                 </table>
               </td>
             </tr>
           </table>
           <!-- /BG SECTION -->
+
+          <!-- SPACER -->
+          <table
+            align="center"
+            bgcolor="#ffffff"
+            class="full"
+            width="650"
+            border="0"
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr>
+              <td height="30" style="font-size: 30px; line-height: 30px">
+                &nbsp;
+              </td>
+            </tr>
+          </table>
+          <!-- /SPACER -->
+
           <!--2 Table Ends -->
         </td>
       </tr>
