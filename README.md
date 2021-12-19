@@ -4,6 +4,10 @@
 
 ### preview
 
+## Promotional Email
+
+![project8](https://user-images.githubusercontent.com/47516835/146683289-832410ef-5a63-422b-9dc7-e86a99118f91.gif)
+
 ## NewsLetter Email
 
 ![project1](https://user-images.githubusercontent.com/47516835/145590188-0fed4e4d-635d-4cb9-abf2-80fd567fa709.gif)
